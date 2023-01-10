@@ -1,0 +1,54 @@
+FLAT FILE DATABASE - c, py, txt, csv, tsv, ppt, xlsx, html, ods
+
+RELATIONAL DATABASE - SQL:
+    C - CREATE
+    R - READ
+    U - UPDATING
+    D - DELETE
+
+
+PRIMARY KEY - Código único não nulo identificadora do registro
+
+FOREIGN KEY - 
+
+
+TYPES OF DATA:
+    BLOB - Binary Large Object
+    INTEGER - Number
+    NUMERIC - Date
+    REAL - Float
+    TEXT - String
+
+COMMANDS:
+    * - everything
+    .schema - shows all of the table
+    CREATE
+    SELECT column
+    FROM table
+    COUNT(column)
+    WHERE IN
+    LIMIT integer
+    ORDER BY
+    JOIN table ON table.column
+    DELETE
+    DROP
+    BEGIN TRANSACTION
+    COMMIT
+    ROLLBACK
+
+    ex:SELECT COUNT(column) FROM table WHERE column IN (SELECT table WHERE column = 'filter the data') LIMIT integer ORDER BY column (ASC/DESC);
+
+
+DDL - Data Description Language
+    CREATE 
+    ALTER
+    DROP
+
+DML - Data Manipulation Language
+    SELECT
+    INSERT
+    DELETE
+    UPDATE
+
+    GUIDE:
+    create table if not exists "table_name" (column_name timestamp, column_name text, column_name int);

@@ -1,0 +1,136 @@
+HTML - Hyper Text Markup Language:
+    Format:
+        <html> 
+            <head>
+                <meta name="viewport" content="initial-scale=1" width="device-width" >
+                <meta property="og:title" content="">
+                <meta property="og:description" >
+                <meta property="og:image" >
+            </head> 
+            <body>
+            </body> 
+        </html>
+
+    Tags and Attributes:
+        /* - Comment
+        <p> - Paragraph
+        <h1 to h6> - Heading
+        <ol> - Ordered List
+        <ul> - Unordered List
+        <li> - List Item
+        <table>: - Creates a table (read_documentation)
+            <thead>
+            <tr>: - Table Row
+                <td> - Table Data
+
+        <img alt="(Alternative Text)" src="(file_name/url)"> - Image
+
+        <video autoplay loop muted width"1280" >: - Video
+            <source src="(file_name/url)" type="video/mp4">
+
+        <a href="url">link_name</a> - Anchor (Treat as a link)
+
+        <form action="https://www.google.com" method="get">: - Creates a web form
+            <input autocomplete="off" autofocus name="q" placeholder="Query  "type="search">
+            <input type="submit" value="Google Search">
+
+        <div> - division
+        <header>
+        <main>
+        <footer>
+        <style> - Allows you to control style, aesthetic, visual of web page
+
+
+
+
+
+
+
+CSS - Cascading Style Sheets
+
+
+JavaScript - Programming Language
+
+blur
+change
+click
+drag
+focus
+keyup
+load
+mousedown
+mouseover
+mouseup
+submit
+touchmove
+unload
+
+
+
+
+
+TCP/IP : Used to get data from A to B
+
+IP = Internet Protocol - Is a protocol that computers speak and allows them to know how to adress computers in the internet
+Each computer have a unique adress(IP) #.#.#.# 32 bits --version 4  (--version 6 = 128 bits)
+                                       ^ ^ ^ ^       
+                                       8 8 8 8 bits each which varies from 0 to 255
+
+TCP = Transmition Control Protocol - It's a different set conventions that computers adhere to in order to solve some particulars problems
+Used for distinguishing one type of service from another.
+
+
+80 - HTTP : Hyper Text Transfer Protocol
+
+443 - HTTPS : "S" means secure for privacy sake
+
+DNS - Domain Name System : Converts domain names to IP adresses
+
+
+https://www.example.com/folder/file.html
+
+Fully Qualified Domain Name - WWW.EXAMPLE.COM
+Host Name - WWW.
+TLD - Top Level Domain: .COM
+Scheme (Protocol Used) - HTTPS://
+
+Local Host Reflexive IP Adress - 127.0.0.1
+
+https://www.google.com/search?q=cats
+
+Status Number:
+    200 OK
+    301 Moved Permanently
+    302 Found
+    304 Not Modified
+    307 Temorary Redirect
+    401 Unauthorized
+    403 Forbidden
+    404 Not Found
+    418 I'm a Teapot
+    500 Internal Server Error
+    503 Service Unavailable
+
+
+
+Commands in a Terminal to Upload on GitHub:]
+
+    git clone - copy someone else's code into your file
+    git commit - save the change you made in the project
+    git add - 
+    git push - push those changes to github repository
+    git pull - pull those changes from github repository
+    git log
+    git reset:
+        git reset --hard <commit_hash>
+        git reset --hard origin/master
+    git branch
+    git checkout
+    git merge
+
+Usefull Libraries:
+    Numpy
+    Pandas
+
+    Bootstrap - Library for CSS and JavaScript
+    Flask - Framework/Library for making python code more pleasant
